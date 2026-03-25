@@ -1,0 +1,105 @@
+<!-- HERO: VIDEO POZADINA -->
+<section class="relative min-h-[80vh] bg-black text-[#f5f2ea] overflow-hidden">
+  <!-- Pozadinski video -->
+  <div class="absolute inset-0">
+    <video
+      muted
+      autoplay
+      loop
+      playsinline
+      webkit-playsinline
+      class="w-full h-full object-cover"
+      src="assets/videoHotelMute.mp4"
+    ></video>
+  </div>
+
+  <!-- Tamni overlay da se tekst bolje vidi -->
+  <div class="absolute inset-0 bg-gradient-to-b from-black/75 via-black/60 to-black/85"></div>
+
+  <!-- Sadržaj hero sekcije -->
+  <div
+    class="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 sm:py-32 flex flex-col items-center text-center"
+  >
+    <p class="text-xs tracking-[0.25em] uppercase text-[#d9c59f] mb-3">
+      {{ 'HOTEL.HERO.KICKER' | translate }}
+    </p>
+
+    <h1
+      class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight mb-4"
+      style="font-family: 'Playfair Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;"
+    >
+      {{ 'HOTEL.HERO.TITLE' | translate }}
+    </h1>
+
+    <p class="max-w-2xl text-sm sm:text-base md:text-lg text-[#f5f2ea]/85 mb-8">
+      {{ 'HOTEL.HERO.SUBTITLE' | translate }}
+    </p>
+
+    <div class="flex flex-col sm:flex-row items-center gap-3">
+      <a
+        routerLink="/kontakt"
+        class="inline-flex items-center justify-center px-7 py-3 rounded-full bg-[#d9c59f] text-[#111111] text-sm font-semibold tracking-wide shadow-lg shadow-black/40 hover:bg-[#e1d0aa] transition"
+      >
+        {{ 'HOTEL.HERO.CTA_INQUIRY' | translate }}
+      </a>
+
+      <a
+        [routerLink]="['/galerija']"
+        [queryParams]="{ tab: 'hotel' }"
+        class="inline-flex items-center justify-center px-7 py-3 rounded-full border border-[#f5f2ea]/70 text-sm font-semibold text-[#f5f2ea] hover:bg-white/10 transition"
+      >
+        {{ 'HOTEL.HERO.CTA_GALLERY' | translate }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- INFO O HOTELU ISPOD HEROA -->
+<section class="bg-[#f8f5ee]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="md:col-span-2 space-y-4">
+        <h2 class="text-2xl sm:text-3xl font-semibold text-[#111111]">
+          {{ 'HOTEL.INFO.TITLE' | translate }}
+        </h2>
+
+        <p class="text-sm sm:text-base text-[#444444]">
+          {{ 'HOTEL.INFO.P1' | translate }}
+        </p>
+
+        <p class="text-sm sm:text-base text-[#444444]">
+          {{ 'HOTEL.INFO.P2' | translate }}
+        </p>
+      </div>
+
+      <div class="space-y-3 text-sm sm:text-base">
+        <div class="rounded-2xl bg-white/90 border border-[#e0d8c5] px-4 py-3">
+          <p class="text-xs font-semibold tracking-[0.25em] uppercase text-[#b79f73] mb-1">
+            {{ 'HOTEL.CARDS.ACCOMMODATION.TITLE' | translate }}
+          </p>
+          <p class="text-[#222222]">
+            {{ 'HOTEL.CARDS.ACCOMMODATION.BODY' | translate }}
+          </p>
+        </div>
+
+        <div class="rounded-2xl bg-white/90 border border-[#e0d8c5] px-4 py-3">
+          <p class="text-xs font-semibold tracking-[0.25em] uppercase text-[#b79f73] mb-1">
+            {{ 'HOTEL.CARDS.AMENITIES.TITLE' | translate }}
+          </p>
+          <p class="text-[#222222]">
+            {{ 'HOTEL.CARDS.AMENITIES.BODY' | translate }}
+          </p>
+        </div>
+
+        <div class="rounded-2xl bg-[#111111] border border-[#2a2a2a] px-4 py-3 text-[#f5f2ea]">
+          <p class="text-xs font-semibold tracking-[0.25em] uppercase text-[#d9c59f] mb-1">
+            {{ 'HOTEL.CARDS.RESERVATIONS.TITLE' | translate }}
+          </p>
+          <p class="text-[#f5f2ea]/85">
+            {{ 'HOTEL.CARDS.RESERVATIONS.BODY' | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

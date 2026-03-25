@@ -1,0 +1,117 @@
+<!-- GORNJI BANNER / NASLOV STRANICE -->
+<section class="bg-[#111111] text-[#f5f2ea]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+    <p class="text-xs tracking-[0.25em] uppercase text-[#d9c59f] mb-2">
+      {{ 'ABOUT.BANNER.KICKER' | translate }}
+    </p>
+
+    <h1
+      class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight mb-4"
+      style="font-family: 'Playfair Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;"
+    >
+      {{ 'ABOUT.BANNER.TITLE' | translate }}
+    </h1>
+
+    <p class="max-w-2xl text-sm sm:text-base text-[#f5f2ea]/80">
+      {{ 'ABOUT.BANNER.SUBTITLE' | translate }}
+    </p>
+  </div>
+</section>
+
+<!-- GLAVNI SADRŽAJ: TEKST + KARTICE -->
+<section class="max-w-6xl mx-auto px-4 sm:px-6 py-14 bg-[#f8f5ee]">
+  <div class="grid md:grid-cols-2 gap-10 lg:gap-14 items-start">
+    <!-- Lijeva strana - tekst -->
+    <div>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-[#111111] mb-4">
+        {{ 'ABOUT.MAIN.TITLE' | translate }}
+      </h2>
+
+      <p class="text-sm sm:text-base text-[#444444] mb-3">
+        {{ 'ABOUT.MAIN.P1' | translate }}
+      </p>
+
+      <p class="text-sm sm:text-base text-[#444444] mb-3">
+        {{ 'ABOUT.MAIN.P2' | translate }}
+      </p>
+
+      <p class="text-sm sm:text-base text-[#444444]">
+        {{ 'ABOUT.MAIN.P3' | translate }}
+      </p>
+    </div>
+
+    <!-- Desna strana - kartice / prednosti -->
+    <div class="space-y-5">
+      <div
+        class="rounded-2xl border border-[#e0d8c5] bg-white/90 px-4 py-4 sm:px-5 sm:py-5 shadow-sm"
+      >
+        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#b79f73] mb-1">
+          {{ 'ABOUT.CARDS.CAPACITY.TITLE' | translate }}
+        </p>
+        <p class="text-sm sm:text-base text-[#222222]">
+          {{ 'ABOUT.CARDS.CAPACITY.BODY' | translate }}
+        </p>
+      </div>
+
+      <div
+        class="rounded-2xl border border-[#e0d8c5] bg-white/90 px-4 py-4 sm:px-5 sm:py-5 shadow-sm"
+      >
+        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#b79f73] mb-1">
+          {{ 'ABOUT.CARDS.SERVICE.TITLE' | translate }}
+        </p>
+        <p class="text-sm sm:text-base text-[#222222]">
+          {{ 'ABOUT.CARDS.SERVICE.BODY' | translate }}
+        </p>
+      </div>
+
+      <div
+        class="rounded-2xl border border-[#2a2a2a] bg-[#111111] text-[#f5f2ea] px-4 py-4 sm:px-5 sm:py-5 shadow-md"
+      >
+        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#d9c59f] mb-1">
+          {{ 'ABOUT.CARDS.PHILOSOPHY.TITLE' | translate }}
+        </p>
+        <p class="text-sm sm:text-base text-[#f5f2ea]/90">
+          {{ 'ABOUT.CARDS.PHILOSOPHY.BODY' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEKCIJA: “ZAŠTO RUSTIKANA?” -->
+<section class="max-w-6xl mx-auto px-4 sm:px-6 pb-16 bg-[#f8f5ee]">
+  <div class="rounded-3xl bg-[#111111] text-[#f5f2ea] px-5 py-8 sm:px-8 sm:py-10">
+    <div class="grid md:grid-cols-3 gap-8 items-center">
+      <div class="md:col-span-2">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3">
+          {{ 'ABOUT.WHY.TITLE' | translate }}
+        </h2>
+
+        <p class="text-sm sm:text-base text-[#f5f2ea]/85 mb-4">
+          {{ 'ABOUT.WHY.P1' | translate }}
+        </p>
+
+        <p class="text-sm sm:text-base text-[#f5f2ea]/80">
+          {{ 'ABOUT.WHY.P2' | translate }}
+        </p>
+      </div>
+
+      <div class="space-y-3 text-sm sm:text-base">
+        <div class="flex items-center justify-between border-b border-[#2a2a2a] pb-2">
+          <span class="text-[#f5f2ea]/80">{{ 'ABOUT.STATS.EXPERIENCE.LABEL' | translate }}</span>
+          <span class="font-semibold text-[#d9c59f]">{{ 'ABOUT.STATS.EXPERIENCE.VALUE' | translate }}</span>
+        </div>
+
+        <div class="flex items-center justify-between border-b border-[#2a2a2a] pb-2">
+          <span class="text-[#f5f2ea]/80">{{ 'ABOUT.STATS.WEDDINGS.LABEL' | translate }}</span>
+          <span class="font-semibold text-[#d9c59f]">{{ 'ABOUT.STATS.WEDDINGS.VALUE' | translate }}</span>
+        </div>
+
+        <div class="flex items-center justify-between">
+          <span class="text-[#f5f2ea]/80">{{ 'ABOUT.STATS.RATING.LABEL' | translate }}</span>
+          <span class="font-semibold text-[#d9c59f]">{{ 'ABOUT.STATS.RATING.VALUE' | translate }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

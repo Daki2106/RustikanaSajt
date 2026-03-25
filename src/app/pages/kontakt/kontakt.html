@@ -1,0 +1,158 @@
+<!-- GORNJI BANNER / NASLOV STRANICE -->
+<section class="bg-[#111111] text-[#f5f2ea]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+    <p class="text-xs tracking-[0.25em] uppercase text-[#d9c59f] mb-2">
+      {{ 'CONTACT.BANNER.KICKER' | translate }}
+    </p>
+
+    <h1
+      class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight mb-4"
+      style="font-family: 'Playfair Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;"
+    >
+      {{ 'CONTACT.BANNER.TITLE' | translate }}
+    </h1>
+
+    <p class="max-w-2xl text-sm sm:text-base text-[#f5f2ea]/80">
+      {{ 'CONTACT.BANNER.SUBTITLE' | translate }}
+    </p>
+  </div>
+</section>
+
+<!-- GLAVNI DIO: INFO + (SLIKA / BLOK) -->
+<section class="bg-[#f8f5ee]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <div class="grid md:grid-cols-2 gap-10 lg:gap-14 items-start">
+      <!-- Lijeva strana • kontakt info + mreže -->
+      <div class="space-y-6">
+        <div>
+          <h2 class="text-xl sm:text-2xl font-semibold text-[#111111] mb-3">
+            {{ 'CONTACT.MAIN.TITLE' | translate }}
+          </h2>
+
+          <p class="text-sm sm:text-base text-[#444444] mb-3">
+            {{ 'CONTACT.MAIN.DESC' | translate }}
+          </p>
+        </div>
+
+        <!-- Kontakt podaci -->
+        <div class="space-y-2 text-sm sm:text-base text-[#222222]">
+          <div class="flex gap-2">
+            <span class="w-20 font-semibold text-[#b79f73]">
+              {{ 'CONTACT.INFO.PHONE_LABEL' | translate }}
+            </span>
+            <a href="tel:+38761000000" class="hover:underline">
+              +387 63 546 654
+            </a>
+          </div>
+
+          <div class="flex gap-2">
+            <span class="w-20 font-semibold text-[#b79f73]">
+              {{ 'CONTACT.INFO.EMAIL_LABEL' | translate }}
+            </span>
+            <a href="mailto:info@rustikana-salon.com" class="hover:underline">
+              info@rustikana-salon.com
+            </a>
+          </div>
+
+          <div class="flex gap-2">
+            <span class="w-20 font-semibold text-[#b79f73]">
+              {{ 'CONTACT.INFO.ADDRESS_LABEL' | translate }}
+            </span>
+            <span>
+              Podhum bb,<br />
+              80101 Livno
+            </span>
+          </div>
+        </div>
+
+        <!-- Društvene mreže -->
+        <div class="pt-4 border-t border-[#e0d8c5]">
+          <h3 class="text-sm font-semibold text-[#111111] mb-3">
+            {{ 'CONTACT.SOCIAL.TITLE' | translate }}
+          </h3>
+
+          <div class="flex items-center gap-3 text-sm">
+            <a
+              href="https://www.facebook.com/p/Rustikana-Svadbeni-Salon-100057545405899/"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#e0d8c5] bg-white/90 text-[#111111] hover:bg-[#f0e9db] transition"
+              [attr.aria-label]="'CONTACT.SOCIAL.FACEBOOK_ARIA' | translate"
+            >
+              <span
+                class="w-6 h-6 rounded-full bg-[#111111] text-[#f5f2ea] flex items-center justify-center text-xs font-semibold"
+              >f</span>
+              <span>{{ 'CONTACT.SOCIAL.FACEBOOK' | translate }}</span>
+            </a>
+
+            <a
+              href="https://www.instagram.com/svadbenisalonrustikana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#e0d8c5] bg-white/90 text-[#111111] hover:bg-[#f0e9db] transition"
+              [attr.aria-label]="'CONTACT.SOCIAL.INSTAGRAM_ARIA' | translate"
+            >
+              <span
+                class="w-6 h-6 rounded-full bg-[#111111] text-[#f5f2ea] flex items-center justify-center text-xs font-semibold"
+              >IG</span>
+              <span>{{ 'CONTACT.SOCIAL.INSTAGRAM' | translate }}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desna strana • slika lokacije -->
+      <div>
+        <div
+          class="rounded-3xl border border-[#e0d8c5] bg-white/95 px-5 py-6 sm:px-6 sm:py-7 shadow-sm"
+        >
+          <div class="rounded-2xl overflow-hidden shadow-md">
+            <img
+              src="assets/RustikanaLokacija.jpg"
+              [alt]="'CONTACT.IMAGE.ALT' | translate"
+              class="w-full h-40 sm:h-48 md:h-52 object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOKACIJA / MAPA -->
+<section class="bg-[#111111] text-[#f5f2ea]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+    <div class="flex flex-col md:flex-row gap-8 items-start">
+      <div class="md:w-1/3 space-y-2">
+        <p class="text-xs tracking-[0.25em] uppercase text-[#d9c59f] mb-1">
+          {{ 'CONTACT.LOCATION.KICKER' | translate }}
+        </p>
+
+        <h2 class="text-xl sm:text-2xl font-semibold mb-2">
+          {{ 'CONTACT.LOCATION.TITLE' | translate }}
+        </h2>
+
+        <p class="text-sm sm:text-base text-[#f5f2ea]/80">
+          {{ 'CONTACT.LOCATION.DESC' | translate }}
+        </p>
+      </div>
+
+      <div class="md:flex-1">
+        <div
+          class="w-full h-64 sm:h-80 rounded-3xl border border-[#2a2a2a] bg-[#0b0b0b] flex items-center justify-center text-xs sm:text-sm text-[#f5f2ea]/60 overflow-hidden"
+        >
+          <iframe
+            title="Rustikana map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1441.7933775545202!2d16.9984057558218!3d43.719136340331026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134acbb69d614729%3A0xc943a650043cf38e!2sRustikana%20d.o.o.%20Svadbeni%20Salon!5e0!3m2!1shr!2srs!4v1763605925126!5m2!1shr!2srs"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

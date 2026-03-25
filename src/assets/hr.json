@@ -1,0 +1,13 @@
+{
+  "NAV": {
+    "HOME": "Naslovna",
+    "ABOUT": "O nama",
+    "GALLERY": "Galerija",
+    "HOTEL": "Hotel",
+    "CONTACT": "Kontakt"
+  },
+  "HERO": {
+    "TITLE": "Svadbeni salon Rustikana",
+    "SUBTITLE": "Mjesto gdje vaša priča počinje"
+  }
+}

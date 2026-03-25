@@ -1,0 +1,171 @@
+<!-- GORNJI BANNER / NASLOV STRANICE -->
+<section class="bg-[#111111] text-[#f5f2ea]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+    <p class="text-xs tracking-[0.25em] uppercase text-[#d9c59f] mb-2">
+      {{ 'GALLERY.BANNER.KICKER' | translate }}
+    </p>
+
+    <h1
+      class="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight mb-4"
+      style="font-family: 'Playfair Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;"
+    >
+      {{ 'GALLERY.BANNER.TITLE' | translate }}
+    </h1>
+
+    <p class="max-w-2xl text-sm sm:text-base text-[#f5f2ea]/80">
+      {{ 'GALLERY.BANNER.SUBTITLE' | translate }}
+    </p>
+  </div>
+</section>
+
+<!-- TABOVI + GRID SLIKA -->
+<section class="bg-[#f8f5ee]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <!-- Tab dugmad -->
+    <div class="flex flex-wrap items-center gap-3 mb-8">
+      <button
+        type="button"
+        (click)="activeTab = 'sala'"
+        class="px-4 py-2 rounded-full text-sm font-semibold border transition"
+        [ngClass]="{
+          'bg-[#111111] text-[#f5f2ea] border-[#111111]': activeTab === 'sala',
+          'bg-transparent text-[#111111] border-[#e0d8c5] hover:bg-[#f0e9db]': activeTab !== 'sala'
+        }"
+      >
+        {{ 'GALLERY.TABS.HALL' | translate }}
+      </button>
+
+      <button
+        type="button"
+        (click)="activeTab = 'hotel'"
+        class="px-4 py-2 rounded-full text-sm font-semibold border transition"
+        [ngClass]="{
+          'bg-[#111111] text-[#f5f2ea] border-[#111111]': activeTab === 'hotel',
+          'bg-transparent text-[#111111] border-[#e0d8c5] hover:bg-[#f0e9db]': activeTab !== 'hotel'
+        }"
+      >
+        {{ 'GALLERY.TABS.MOTEL' | translate }}
+      </button>
+    </div>
+
+    <!-- SALA GRID -->
+    <div *ngIf="activeTab === 'sala'">
+      <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-4">
+        {{ 'GALLERY.HALL.TITLE' | translate }}
+      </h2>
+      <p class="text-sm text-[#555555] mb-6">
+        {{ 'GALLERY.HALL.DESC' | translate }}
+      </p>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5">
+        <div
+          *ngFor="let img of salaImages; index as i"
+          class="group relative overflow-hidden rounded-2xl border border-[#e0d8c5] bg-[#fdfaf5] shadow-sm cursor-zoom-in"
+          (click)="openLightbox('sala', i)"
+        >
+          <img
+            [src]="img.src"
+            [alt]="img.alt"
+            class="w-full h-52 sm:h-56 md:h-60 object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+          <div
+            class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end"
+          >
+            <p class="text-xs text-[#f5f2ea] px-3 py-2 bg-black/40 w-full">
+              {{ img.alt }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOTEL GRID -->
+    <div *ngIf="activeTab === 'hotel'">
+      <h2 class="text-lg sm:text-xl font-semibold text-[#111111] mb-4">
+        {{ 'GALLERY.MOTEL.TITLE' | translate }}
+      </h2>
+      <p class="text-sm text-[#555555] mb-6">
+        {{ 'GALLERY.MOTEL.DESC' | translate }}
+      </p>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5">
+        <div
+          *ngFor="let img of hotelImages; index as i"
+          class="group relative overflow-hidden rounded-2xl border border-[#e0d8c5] bg-[#fdfaf5] shadow-sm cursor-zoom-in"
+          (click)="openLightbox('hotel', i)"
+        >
+          <img
+            [src]="img.src"
+            [alt]="img.alt"
+            class="w-full h-52 sm:h-56 md:h-60 object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+          <div
+            class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition flex items-end"
+          >
+            <p class="text-xs text-[#f5f2ea] px-3 py-2 bg-black/40 w-full">
+              {{ img.alt }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div
+    *ngIf="lightboxOpen && lightboxImage"
+    class="fixed inset-0 z-40 bg-black/80 flex items-center justify-center px-4"
+    (click)="closeLightbox()"
+  >
+    <div
+      class="relative max-w-5xl max-h-[90vh] bg-[#111111] border border-[#2a2a2a] rounded-3xl overflow-hidden shadow-2xl flex items-center"
+      (click)="$event.stopPropagation()"
+    >
+      <!-- Strelica lijevo -->
+      <button
+        type="button"
+        (click)="prevImage()"
+        class="hidden sm:flex absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/60 text-[#f5f2ea] text-lg items-center justify-center hover:bg-black/80 transition"
+        [attr.aria-label]="'GALLERY.LIGHTBOX.PREV' | translate"
+      >
+        ‹
+      </button>
+
+      <!-- Strelica desno -->
+      <button
+        type="button"
+        (click)="nextImage()"
+        class="hidden sm:flex absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-black/60 text-[#f5f2ea] text-lg items-center justify-center hover:bg-black/80 transition"
+        [attr.aria-label]="'GALLERY.LIGHTBOX.NEXT' | translate"
+      >
+        ›
+      </button>
+
+      <!-- Close dugme -->
+      <button
+        type="button"
+        (click)="closeLightbox()"
+        class="absolute top-3 right-3 w-8 h-8 rounded-full bg-black/60 text-[#f5f2ea] text-sm font-semibold flex items-center justify-center hover:bg-black/80 transition"
+        [attr.aria-label]="'GALLERY.LIGHTBOX.CLOSE' | translate"
+      >
+        ✕
+      </button>
+
+      <!-- Slika -->
+      <div class="w-full flex items-center justify-center px-4 py-6">
+        <img
+          [src]="lightboxImage.src"
+          [alt]="lightboxImage.alt"
+          class="max-h-[70vh] w-auto object-contain mx-auto"
+        />
+      </div>
+
+      <!-- Opis -->
+      <p
+        class="absolute bottom-0 left-0 right-0 text-xs sm:text-sm text-[#f5f2ea]/80 text-center px-4 py-3 border-t border-[#2a2a2a] bg-[#111111]/95"
+      >
+        {{ lightboxImage.alt }}
+      </p>
+    </div>
+  </div>
+</section>

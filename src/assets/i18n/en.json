@@ -1,0 +1,162 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About us",
+    "GALLERY": "Gallery",
+    "MOTEL": "Motel",
+    "CONTACT": "Contact"
+  },
+  "HERO": {
+    "TITLE": "Rustikana Wedding Hall",
+    "SUBTITLE": "Where your story begins"
+  },
+
+  
+  "HOME": {
+    "HERO": {
+      "IMAGE_ALT": "Rustikana wedding venue",
+      "BADGE": "A beautiful setting for your most important day",
+      "TITLE_PREFIX": "Wedding venue ",
+      "TITLE_BRAND": "Rustikana",
+      "SUBTITLE": "Welcome to Rustikana — where elegance, warmth, and a vibrant atmosphere come together to create a celebration that feels truly yours. Whether you’re planning an intimate ceremony or a grand reception, we shape the space around your vision."
+    },
+    "HIGHLIGHTS": {
+      "TITLE": "A space made for moments you’ll remember",
+      "P1": "Rustikana blends contemporary design with a warm, rustic touch. Our goal is simple: for you and your guests to feel relaxed, comfortable, and special — from your first step inside to the final dance.",
+      "P2": "We take care of the details — décor, lighting, seating layout, and the flow of the evening — so you can be fully present and enjoy every moment, without stress or rushing.",
+      "CHIPS": {
+        "DECOR": "Tailored décor",
+        "STAFF": "Experienced team",
+        "SOUND_LIGHT": "Modern sound & lighting"
+      }
+    },
+    "GALLERY_ALT": {
+      "DECOR_DETAIL": "Décor detail",
+      "SWEETHEART_TABLE": "Sweetheart table",
+      "VENUE_AMBIENCE": "Venue ambience",
+      "LIGHTING_DETAILS": "Lighting details"
+    }
+  },
+
+  "ABOUT": {
+  "BANNER": {
+    "KICKER": "About us",
+    "TITLE": "The story behind Rustikana Wedding Hall",
+    "SUBTITLE": "Rustikana was born from a simple idea — that every couple deserves a space where they feel welcomed, relaxed, and truly special. Our goal is to make your most important day filled with warmth, elegance, and details worth remembering."
+  },
+  "MAIN": {
+    "TITLE": "Where the atmosphere makes the difference",
+    "P1": "Rustikana Wedding Hall is designed as a blend of modern aesthetics and rustic charm. From the moment you step inside, we want you to feel the warmth of the space, carefully chosen details, and an atmosphere that invites celebration.",
+    "P2": "Our team is made up of people who genuinely love what they do — from planning and communication with couples, to decorators and wait staff, to technicians in charge of lighting and sound. Each of them helps your celebration run smoothly, without stress or unnecessary worry.",
+    "P3": "We believe the most beautiful celebrations are the ones that feel like you. That’s why we listen closely to your wishes, suggest solutions, and build the concept together — whether you dream of a classic, modern, or completely different wedding."
+  },
+  "CARDS": {
+    "CAPACITY": {
+      "TITLE": "Capacity & space",
+      "BODY": "A spacious hall with flexible seating layouts for smaller, intimate celebrations — as well as large weddings with hundreds of guests."
+    },
+    "SERVICE": {
+      "TITLE": "Service & planning",
+      "BODY": "From the first meeting to the last guest — we guide you through every step of planning and help you make the decisions that make your day feel exceptional."
+    },
+    "PHILOSOPHY": {
+      "TITLE": "Our philosophy",
+      "BODY": "Every wedding is its own story. We don’t offer “one package for everyone” — we take a flexible approach, tailoring the ambience, décor, timeline, and details to your style and wishes."
+    }
+  },
+  "WHY": {
+    "TITLE": "Why couples choose Rustikana",
+    "P1": "Beyond the look of the venue, couples value our dedication, flexibility, and the sense of confidence they feel while planning. They know they have a team that thinks ahead — about the timeline, protocol, guests, and all the “small things” that make a big difference.",
+    "P2": "Whether you’re local or planning from a distance, our goal is the same: that after the celebration you say, “It was exactly how we wanted — and even a little better.”"
+  },
+  "STATS": {
+    "EXPERIENCE": { "LABEL": "Years of experience", "VALUE": "10+" },
+    "WEDDINGS": { "LABEL": "Weddings & celebrations hosted", "VALUE": "300+" },
+    "RATING": { "LABEL": "Average couple rating", "VALUE": "4.9 / 5.0" }
+  }
+},
+
+"GALLERY": {
+  "BANNER": {
+    "KICKER": "Gallery",
+    "TITLE": "Rustikana Gallery",
+    "SUBTITLE": "Take a look at a glimpse of the atmosphere from our hall and motel. This is just a small part of what we can prepare for your celebration — in person, it’s even more beautiful."
+  },
+  "TABS": {
+    "HALL": "Hall",
+    "MOTEL": "Motel"
+  },
+  "HALL": {
+    "TITLE": "Wedding hall photos",
+    "DESC": "Decor, table setups, lighting, and venue details from Rustikana."
+  },
+  "MOTEL": {
+    "TITLE": "Motel photos",
+    "DESC": "Rooms, accommodation details, and shared spaces for your guests."
+  },
+  "LIGHTBOX": {
+    "PREV": "Previous image",
+    "NEXT": "Next image",
+    "CLOSE": "Close"
+  }
+},
+"HOTEL": {
+  "HERO": {
+    "KICKER": "Rustikana Motel",
+    "TITLE": "Accommodation for your closest guests",
+    "SUBTITLE": "Rustikana Motel offers comfortable accommodation right next to the wedding hall — perfect for newlyweds, family, and guests who want to enjoy the celebration without rushing, driving, or stress afterwards.",
+    "CTA_INQUIRY": "Send an accommodation inquiry",
+    "CTA_GALLERY": "View motel photos"
+  },
+  "INFO": {
+    "TITLE": "Comfort within the same complex as the hall",
+    "P1": "Rustikana Motel is located right next to the wedding hall, so your guests are just a few steps away from rest after the celebration. There’s no need for extra driving, transport organization, or worrying about who will drive whom home.",
+    "P2": "Rooms are designed in a warm, elegant style, with a focus on comfort and peace. Ideal for newlyweds who want to spend their first night right after the celebration, and for guests arriving from other cities or countries."
+  },
+  "CARDS": {
+    "ACCOMMODATION": {
+      "TITLE": "Accommodation",
+      "BODY": "Double and triple rooms"
+    },
+    "AMENITIES": {
+      "TITLE": "Amenities",
+      "BODY": "Comfortable stay, parking, close to the hall"
+    },
+    "RESERVATIONS": {
+      "TITLE": "Reservations",
+      "BODY": "For pricing details and available dates, please contact us via the Contact page."
+    }
+  }
+},
+"CONTACT": {
+  "BANNER": {
+    "KICKER": "Contact",
+    "TITLE": "Contact & location",
+    "SUBTITLE": "Have questions, want to check available dates, or schedule a venue tour? Reach out — we’re here to plan your perfect celebration together."
+  },
+  "MAIN": {
+    "TITLE": "Get in touch",
+    "DESC": "You can reach us fastest by phone or email. Feel free to message us on social media as well — we’re happy to answer any questions about weddings, celebrations, and other events."
+  },
+  "INFO": {
+    "PHONE_LABEL": "Phone:",
+    "EMAIL_LABEL": "Email:",
+    "ADDRESS_LABEL": "Address:"
+  },
+  "SOCIAL": {
+    "TITLE": "Follow us on social media",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "FACEBOOK_ARIA": "Open Facebook profile",
+    "INSTAGRAM_ARIA": "Open Instagram profile"
+  },
+  "IMAGE": {
+    "ALT": "Location"
+  },
+  "LOCATION": {
+    "KICKER": "Location",
+    "TITLE": "How to find us",
+    "DESC": "Rustikana Wedding Hall is located in a quiet area with secured parking for guests. Below you can see our exact position on the map."
+  }
+}
+}

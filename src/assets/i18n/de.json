@@ -1,0 +1,162 @@
+{
+  "NAV": {
+    "HOME": "Startseite",
+    "ABOUT": "Über uns",
+    "GALLERY": "Galerie",
+    "MOTEL": "Motel",
+    "CONTACT": "Kontakt"
+  },
+  "HERO": {
+    "TITLE": "Hochzeitssaal Rustikana",
+    "SUBTITLE": "Wo Ihre Geschichte beginnt"
+  },
+
+
+  "HOME": {
+    "HERO": {
+      "IMAGE_ALT": "Rustikana Hochzeitssaal",
+      "BADGE": "Ein stimmungsvolles Ambiente für Ihren großen Tag",
+      "TITLE_PREFIX": "Hochzeitssaal ",
+      "TITLE_BRAND": "Rustikana",
+      "SUBTITLE": "Willkommen in Rustikana – wo Eleganz, Wärme und eine besondere Atmosphäre zu einer Feier verschmelzen, die sich ganz nach Ihnen anfühlt. Ob im kleinen Kreis oder als großes Fest: Wir gestalten den Rahmen nach Ihren Wünschen."
+    },
+    "HIGHLIGHTS": {
+      "TITLE": "Ein Ort für Erinnerungen, die bleiben",
+      "P1": "Rustikana verbindet modernes Design mit einem warmen, rustikalen Charakter. Unser Ziel: Sie und Ihre Gäste sollen sich entspannt, willkommen und besonders fühlen – vom ersten Moment bis zum letzten Tanz.",
+      "P2": "Wir kümmern uns um die Details – Dekoration, Licht, Sitzordnung und den Ablauf des Abends – damit Sie Ihren Tag ohne Stress und Hektik genießen können.",
+      "CHIPS": {
+        "DECOR": "Individuelle Dekoration",
+        "STAFF": "Erfahrenes Team",
+        "SOUND_LIGHT": "Moderne Licht- & Tontechnik"
+      }
+    },
+    "GALLERY_ALT": {
+      "DECOR_DETAIL": "Dekorationsdetail",
+      "SWEETHEART_TABLE": "Brauttisch",
+      "VENUE_AMBIENCE": "Saal-Atmosphäre",
+      "LIGHTING_DETAILS": "Lichtdetails"
+    }
+  },
+
+  "ABOUT": {
+  "BANNER": {
+    "KICKER": "Über uns",
+    "TITLE": "Die Geschichte hinter dem Hochzeitssaal Rustikana",
+    "SUBTITLE": "Rustikana entstand aus einer einfachen Idee – dass jedes Paar einen Ort verdient, an dem es sich willkommen, entspannt und besonders fühlt. Unser Ziel ist, dass Ihr wichtigster Tag von Wärme, Eleganz und Details geprägt ist, die in Erinnerung bleiben."
+  },
+  "MAIN": {
+    "TITLE": "Ein Ort, an dem Atmosphäre den Unterschied macht",
+    "P1": "Der Hochzeitssaal Rustikana ist als Verbindung aus modernem Design und rustikalem Charme gestaltet. Schon beim ersten Betreten sollen Sie die Wärme des Raumes, sorgfältig ausgewählte Details und eine Atmosphäre spüren, die zum Feiern einlädt.",
+    "P2": "Unser Team besteht aus Menschen, die ihre Arbeit wirklich lieben – von Planung und Kommunikation mit den Brautpaaren über Dekoration und Service bis hin zu Technikern für Licht und Ton. Jeder trägt dazu bei, dass Ihre Feier reibungslos verläuft – ohne Stress und unnötige Sorgen.",
+    "P3": "Wir glauben: Die schönsten Feiern sind die, die zu Ihnen passen. Darum hören wir genau zu, machen Vorschläge und entwickeln das Konzept gemeinsam – ob klassisch, modern oder ganz anders."
+  },
+  "CARDS": {
+    "CAPACITY": {
+      "TITLE": "Kapazität & Raum",
+      "BODY": "Ein großzügiger Saal mit flexibler Sitzordnung – ideal für kleine, intime Feiern ebenso wie für große Hochzeiten mit hunderten Gästen."
+    },
+    "SERVICE": {
+      "TITLE": "Service & Organisation",
+      "BODY": "Vom ersten Gespräch bis zum letzten Gast – wir begleiten Sie durch jeden Schritt der Planung und helfen bei Entscheidungen, die Ihren Tag besonders machen."
+    },
+    "PHILOSOPHY": {
+      "TITLE": "Unsere Philosophie",
+      "BODY": "Jede Hochzeit ist eine eigene Geschichte. Wir bieten kein „Einheits-Paket“, sondern einen flexiblen Ansatz: Ambiente, Dekoration, Ablauf und Details passen wir Ihrem Stil und Ihren Wünschen an."
+    }
+  },
+  "WHY": {
+    "TITLE": "Warum Paare Rustikana wählen",
+    "P1": "Neben dem Stil des Saals schätzen Paare vor allem unsere Hingabe, Flexibilität und das sichere Gefühl während der Planung. Sie wissen: Da ist ein Team, das vorausdenkt – an Ablauf, Timing, Gäste und all die „Kleinigkeiten“, die den großen Unterschied machen.",
+    "P2": "Ob Sie aus der Stadt kommen oder aus der Ferne planen – unser Ziel ist dasselbe: dass Sie nach der Feier sagen: „Es war genau so, wie wir es wollten – und sogar noch ein bisschen besser.“"
+  },
+  "STATS": {
+    "EXPERIENCE": { "LABEL": "Jahre Erfahrung", "VALUE": "10+" },
+    "WEDDINGS": { "LABEL": "Hochzeiten & Feiern", "VALUE": "300+" },
+    "RATING": { "LABEL": "Durchschnittliche Bewertung", "VALUE": "4.9 / 5.0" }
+  }
+},
+
+"GALLERY": {
+  "BANNER": {
+    "KICKER": "Galerie",
+    "TITLE": "Rustikana Galerie",
+    "SUBTITLE": "Werfen Sie einen Blick auf einen Teil der Atmosphäre aus unserem Saal und Motel. Das ist nur ein kleiner Ausschnitt dessen, was wir für Ihre Feier vorbereiten können – vor Ort ist es noch schöner."
+  },
+  "TABS": {
+    "HALL": "Saal",
+    "MOTEL": "Motel"
+  },
+  "HALL": {
+    "TITLE": "Fotos des Hochzeitssaals",
+    "DESC": "Dekoration, Tischanordnungen, Beleuchtung und Details des Rustikana-Saals."
+  },
+  "MOTEL": {
+    "TITLE": "Motel-Fotos",
+    "DESC": "Zimmer, Details der Unterkunft und Gemeinschaftsbereiche für Ihre Gäste."
+  },
+  "LIGHTBOX": {
+    "PREV": "Vorheriges Bild",
+    "NEXT": "Nächstes Bild",
+    "CLOSE": "Schließen"
+  }
+},
+"HOTEL": {
+  "HERO": {
+    "KICKER": "Motel Rustikana",
+    "TITLE": "Unterkunft für Ihre liebsten Gäste",
+    "SUBTITLE": "Das Motel Rustikana bietet eine komfortable Unterkunft in unmittelbarer Nähe zum Hochzeitssaal – ideal für Brautpaar, Familie und Gäste, die nach der Feier ohne Eile, Fahrt und Stress genießen möchten.",
+    "CTA_INQUIRY": "Anfrage zur Unterkunft senden",
+    "CTA_GALLERY": "Motel-Fotos ansehen"
+  },
+  "INFO": {
+    "TITLE": "Komfort im selben Komplex wie der Saal",
+    "P1": "Das Motel Rustikana liegt direkt neben dem Hochzeitssaal, sodass Ihre Gäste nach der Feier nur wenige Schritte vom Ausruhen entfernt sind. Keine zusätzliche Fahrt, keine Organisation von Transport und keine Sorge, wer wen nach Hause bringt.",
+    "P2": "Die Zimmer sind in einem warmen, eleganten Stil eingerichtet – mit Fokus auf Komfort und Ruhe. Ideal für das Brautpaar, das die erste Nacht direkt nach der Feier verbringen möchte, sowie für Gäste aus anderen Städten oder Ländern."
+  },
+  "CARDS": {
+    "ACCOMMODATION": {
+      "TITLE": "Unterkunft",
+      "BODY": "Doppel- und Dreibettzimmer"
+    },
+    "AMENITIES": {
+      "TITLE": "Ausstattung",
+      "BODY": "Komfortable Unterkunft, Parkplatz, Nähe zum Saal"
+    },
+    "RESERVATIONS": {
+      "TITLE": "Reservierungen",
+      "BODY": "Für Details zu Preisen und freien Terminen kontaktieren Sie uns bitte über die Kontakt-Seite."
+    }
+  }
+},
+"CONTACT": {
+  "BANNER": {
+    "KICKER": "Kontakt",
+    "TITLE": "Kontakt & Standort",
+    "SUBTITLE": "Haben Sie Fragen, möchten verfügbare Termine prüfen oder eine Besichtigung vereinbaren? Melden Sie sich — wir planen Ihr perfektes Fest gerne gemeinsam."
+  },
+  "MAIN": {
+    "TITLE": "Kontaktieren Sie uns",
+    "DESC": "Am schnellsten erreichen Sie uns telefonisch oder per E-Mail. Schreiben Sie uns gerne auch über soziale Netzwerke — wir beantworten Fragen zu Hochzeiten, Feiern und weiteren Veranstaltungen."
+  },
+  "INFO": {
+    "PHONE_LABEL": "Telefon:",
+    "EMAIL_LABEL": "E-Mail:",
+    "ADDRESS_LABEL": "Adresse:"
+  },
+  "SOCIAL": {
+    "TITLE": "Folgen Sie uns in sozialen Netzwerken",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "FACEBOOK_ARIA": "Facebook-Profil öffnen",
+    "INSTAGRAM_ARIA": "Instagram-Profil öffnen"
+  },
+  "IMAGE": {
+    "ALT": "Standort"
+  },
+  "LOCATION": {
+    "KICKER": "Standort",
+    "TITLE": "Wie finden Sie uns?",
+    "DESC": "Der Hochzeitssaal Rustikana liegt in ruhiger Lage und bietet gesicherten Parkplatz für Gäste. Unten sehen Sie unsere genaue Position auf der Karte."
+  }
+}
+}

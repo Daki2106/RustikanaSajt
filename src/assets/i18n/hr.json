@@ -1,0 +1,168 @@
+{
+  "NAV": {
+    "BRAND": "Svadbeni salon Rustikana",
+    "SUBTITLE": "Mjesto gdje vaša priča počinje",
+    "HOME": "Naslovna",
+    "ABOUT": "O nama",
+    "GALLERY": "Galerija",
+    "MOTEL": "Motel",
+    "CONTACT": "Kontakt"
+  },
+  "FOOTER": {
+    "BRAND": "Svadbeni salon Rustikana",
+    "TAGLINE": "Savršeno mjesto za vaš najposebniji dan.",
+    "RIGHTS": "Sva prava zadržana.",
+    "BY": "Dizajn i izrada:"
+  },
+
+
+  "HOME": {
+    "HERO": {
+      "IMAGE_ALT": "Svadbeni salon Rustikana",
+      "BADGE": "Savršeno mjesto za vaš najposebniji dan",
+      "TITLE_PREFIX": "Svadbeni salon ",
+      "TITLE_BRAND": "Rustikana",
+      "SUBTITLE": "Dobrodošli u Rustikanu, mjesto gdje se elegancija, toplina i dobra atmosfera spajaju u jednu savršenu svadbenu priču. Bilo da planirate intimno vjenčanje ili veliku proslavu, kreiramo ambijent prilagođen vašim željama."
+    },
+    "HIGHLIGHTS": {
+      "TITLE": "Ambijent za dane koje ćete pamtiti",
+      "P1": "Rustikana je spoj modernog dizajna i toplog, rustičnog ugođaja. Naš cilj je da se vi i vaši gosti osjećate opušteno, ugodno i posebno, od prvog ulaska u salu do posljednjeg plesa.",
+      "P2": "Brinemo o svakom detalju – od dekoracije, rasvjete i rasporeda sjedenja, do protokola proslave, kako biste vi mogli da uživate u svom danu, bez stresa i žurbe.",
+      "CHIPS": {
+        "DECOR": "Personalizovana dekoracija",
+        "STAFF": "Iskusno osoblje",
+        "SOUND_LIGHT": "Moderna rasvjeta i ozvučenje"
+      }
+    },
+    "GALLERY_ALT": {
+      "DECOR_DETAIL": "Detalj dekoracije",
+      "SWEETHEART_TABLE": "Sto mladenca",
+      "VENUE_AMBIENCE": "Ambijent sale",
+      "LIGHTING_DETAILS": "Detalji rasvjete"
+    }
+  },
+
+  "ABOUT": {
+  "BANNER": {
+    "KICKER": "O nama",
+    "TITLE": "Priča iza svadbenog salona Rustikana",
+    "SUBTITLE": "Rustikana je nastala iz jednostavne ideje – da svaki par zaslužuje prostor u kojem će se osjećati dobrodošlo, opušteno i posebno. Naš cilj je da vaš najvažniji dan bude ispunjen toplinom, elegancijom i detaljima koji se pamte."
+  },
+  "MAIN": {
+    "TITLE": "Mjesto gdje atmosfera čini razliku",
+    "P1": "Svadbeni salon Rustikana osmišljen je kao spoj modernog dizajna i rustičnog šarma. Od prvog ulaska u salu, želimo da osjetite toplinu prostora, pažljivo odabrane detalje i atmosferu koja vas poziva na slavlje.",
+    "P2": "Naš tim čine ljudi koji iskreno vole ono što rade – od organizacije i komunikacije sa mladencima, preko dekoratera i konobara, do tehničara zaduženih za rasvjetu i ozvučenje. Svako od njih doprinosi tome da vaše slavlje teče glatko, bez stresa i nepotrebne brige.",
+    "P3": "Vjerujemo da su najljepše proslave one koje liče na vas. Zato pažljivo slušamo vaše želje, predlažemo rješenja i zajedno gradimo koncept – bilo da sanjate klasično, moderno ili potpuno drugačije vjenčanje."
+  },
+  "CARDS": {
+    "CAPACITY": {
+      "TITLE": "Kapacitet & prostor",
+      "BODY": "Prostrana sala sa mogućnošću prilagođavanja rasporeda sjedenja za manje, intimne proslave, ali i velika vjenčanja sa stotinama zvanica."
+    },
+    "SERVICE": {
+      "TITLE": "Usluga & organizacija",
+      "BODY": "Od prvog susreta do posljednjeg gosta – tu smo da vas vodimo kroz svaki korak organizacije i pomognemo u donošenju odluka koje će vaš dan učiniti posebnim."
+    },
+    "PHILOSOPHY": {
+      "TITLE": "Naša filozofija",
+      "BODY": "Svaka svadba je priča za sebe. Mi ne nudimo “jedan paket za sve”, već fleksibilan pristup gdje prilagođavamo ambijent, dekoracije, protokol i detalje vašem stilu i željama."
+    }
+  },
+  "WHY": {
+    "TITLE": "Zašto parovi biraju Rustikanu?",
+    "P1": "Pored izgleda sale, parovi najviše cijene našu posvećenost, fleksibilnost i osjećaj sigurnosti koji imaju tokom planiranja. Znaju da imaju tim koji misli unaprijed – o protokolu, tajmingu, gostima i svim “sitnicama” koje čine veliku razliku.",
+    "P2": "Bilo da dolazite iz grada ili nam povjeravate vjenčanje na daljinu, cilj nam je isti: da nakon proslave kažete “bilo je tačno onako kako smo željeli – i još malo bolje”."
+  },
+  "STATS": {
+    "EXPERIENCE": { "LABEL": "Godina iskustva u organizaciji", "VALUE": "10+" },
+    "WEDDINGS": { "LABEL": "Održanih svadbi i proslava", "VALUE": "300+" },
+    "RATING": { "LABEL": "Prosječna ocjena parova", "VALUE": "4.9 / 5.0" }
+  }
+},
+"GALLERY": {
+  "BANNER": {
+    "KICKER": "Galerija",
+    "TITLE": "Galerija Rustikana",
+    "SUBTITLE": "Pogledajte dio atmosfere iz naše sale i motela. Ovo je samo mali dio onoga što možemo pripremiti za vaše slavlje – uživo je još ljepše."
+  },
+  "TABS": {
+    "HALL": "Sala",
+    "MOTEL": "Motel"
+  },
+  "HALL": {
+    "TITLE": "Fotografije svadbenog salona",
+    "DESC": "Dekoracije, postavke stolova, rasvjeta i detalji prostora Rustikana sale."
+  },
+  "MOTEL": {
+    "TITLE": "Fotografije motela",
+    "DESC": "Sobe, detalji smještaja i zajednički prostori za vaše goste."
+  },
+  "LIGHTBOX": {
+    "PREV": "Prethodna slika",
+    "NEXT": "Sljedeća slika",
+    "CLOSE": "Zatvori"
+  }
+},
+
+"HOTEL": {
+  "HERO": {
+    "KICKER": "Motel Rustikana",
+    "TITLE": "Smještaj za vaše najdraže goste",
+    "SUBTITLE": "Motel Rustikana pruža udoban smještaj u neposrednoj blizini svadbene sale – idealno za mladence, porodicu i goste koji žele da uživaju bez žurbe, vožnje i stresa nakon proslave.",
+    "CTA_INQUIRY": "Pošaljite upit za smještaj",
+    "CTA_GALLERY": "Pogledaj slike motela"
+  },
+  "INFO": {
+    "TITLE": "Udobnost u istom kompleksu kao i sala",
+    "P1": "Motel Rustikana smješten je tik uz svadbeni salon, što omogućava da vaši gosti nakon proslave samo nekoliko koraka dijeli od odmora. Nema potrebe za dodatnom vožnjom, organizacijom prevoza ili brigom ko će koga voziti kući.",
+    "P2": "Sobe su uređene u toplom, elegantnom stilu, sa naglaskom na udobnost i mir. Idealno za mladence koji žele prvu bračnu noć provesti odmah nakon proslave, ali i za goste koji dolaze iz drugih gradova ili država."
+  },
+  "CARDS": {
+    "ACCOMMODATION": {
+      "TITLE": "Smještaj",
+      "BODY": "Dvokrevetne i trokrevetne sobe"
+    },
+    "AMENITIES": {
+      "TITLE": "Pogodnosti",
+      "BODY": "Udoban smještaj, parking, blizina sale"
+    },
+    "RESERVATIONS": {
+      "TITLE": "Rezervacije",
+      "BODY": "Za detalje oko cijena i slobodnih termina, kontaktirajte nas putem stranice Kontakt."
+    }
+  }
+},
+"CONTACT": {
+  "BANNER": {
+    "KICKER": "Kontakt",
+    "TITLE": "Kontakt i lokacija",
+    "SUBTITLE": "Imate pitanja, želite provjeriti dostupne termine ili zakazati obilazak sale? Javite nam se – tu smo da zajedno isplaniramo vaše savršeno slavlje."
+  },
+  "MAIN": {
+    "TITLE": "Javite nam se",
+    "DESC": "Najbrže nas možete dobiti putem telefona ili e-maila. Slobodno nam pišite i putem društvenih mreža – rado odgovaramo na sva pitanja vezana za organizaciju vjenčanja, proslava i ostalih događaja."
+  },
+  "INFO": {
+    "PHONE_LABEL": "Telefon:",
+    "EMAIL_LABEL": "E-mail:",
+    "ADDRESS_LABEL": "Adresa:"
+  },
+  "SOCIAL": {
+    "TITLE": "Pratite nas na društvenim mrežama",
+    "FACEBOOK": "Facebook",
+    "INSTAGRAM": "Instagram",
+    "FACEBOOK_ARIA": "Otvori Facebook profil",
+    "INSTAGRAM_ARIA": "Otvori Instagram profil"
+  },
+  "IMAGE": {
+    "ALT": "Lokacija"
+  },
+  "LOCATION": {
+    "KICKER": "Lokacija",
+    "TITLE": "Kako do nas?",
+    "DESC": "Svadbeni salon Rustikana nalazi se na mirnoj lokaciji, sa obezbijeđenim parkingom za goste. U nastavku možete vidjeti našu tačnu poziciju na mapi."
+  }
+}
+}
+
+

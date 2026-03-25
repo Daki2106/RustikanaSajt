@@ -1,0 +1,109 @@
+<!-- HERO SEKCIJA -->
+<section class="relative min-h-[80vh] overflow-hidden bg-slate-950">
+  <div class="absolute inset-0">
+    <img
+      src="assets/hero-rustikana.jpg"
+      [alt]="'HOME.HERO.IMAGE_ALT' | translate"
+      class="w-full h-full object-cover"
+    />
+  </div>
+
+  <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
+
+  <div
+    class="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 sm:py-32 flex flex-col items-center text-center text-white"
+  >
+    <div class="flex items-center gap-3 mb-4 text-xs sm:text-lg text-slate-200">
+      <span class="hidden sm:inline text-slate-300/80">
+        {{ 'HOME.HERO.BADGE' | translate }}
+      </span>
+    </div>
+
+    <h1
+      class="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight mb-4 sm:mb-5"
+      style="font-family: 'Playfair Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;"
+    >
+      {{ 'HOME.HERO.TITLE_PREFIX' | translate }}
+      <span class="text-[#d9c59f]">{{ 'HOME.HERO.TITLE_BRAND' | translate }}</span>
+    </h1>
+
+    <p class="max-w-2xl text-sm sm:text-base md:text-lg text-slate-200 mb-8">
+      {{ 'HOME.HERO.SUBTITLE' | translate }}
+    </p>
+  </div>
+</section>
+
+<!-- KRATKO O NAMA / HIGHLIGHTS -->
+<section class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+  <div class="grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-2xl sm:text-3xl font-semibold text-slate-900 mb-3">
+        {{ 'HOME.HIGHLIGHTS.TITLE' | translate }}
+      </h2>
+
+      <p class="text-sm sm:text-base text-slate-600 mb-3">
+        {{ 'HOME.HIGHLIGHTS.P1' | translate }}
+      </p>
+
+      <p class="text-sm sm:text-base text-slate-600">
+        {{ 'HOME.HIGHLIGHTS.P2' | translate }}
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-3 text-xs sm:text-sm">
+        <span class="px-3 py-1 rounded-full bg-slate-900 text-[#d9c59f] border border-slate-900/80">
+          {{ 'HOME.HIGHLIGHTS.CHIPS.DECOR' | translate }}
+        </span>
+
+        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-800 border border-slate-200">
+          {{ 'HOME.HIGHLIGHTS.CHIPS.STAFF' | translate }}
+        </span>
+
+        <span class="px-3 py-1 rounded-full bg-slate-100 text-slate-800 border border-slate-200">
+          {{ 'HOME.HIGHLIGHTS.CHIPS.SOUND_LIGHT' | translate }}
+        </span>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 sm:gap-4">
+      <!-- LIJEVA KOLONA -->
+      <div class="flex flex-col space-y-3 sm:space-y-4">
+        <div class="rounded-2xl overflow-hidden shadow-md">
+          <img
+            src="assets/rustikana-detail-1.jpg"
+            [alt]="'HOME.GALLERY_ALT.DECOR_DETAIL' | translate"
+            class="w-full h-40 sm:h-48 md:h-52 object-cover"
+          />
+        </div>
+
+        <div class="rounded-2xl overflow-hidden shadow-md">
+          <img
+            src="assets/rustikana-detail-3.jpg"
+            [alt]="'HOME.GALLERY_ALT.VENUE_AMBIENCE' | translate"
+            class="w-full h-40 sm:h-48 md:h-52 object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- DESNA KOLONA -->
+      <div class="flex flex-col space-y-3 sm:space-y-4 pt-4 sm:pt-6">
+        <div class="rounded-2xl overflow-hidden shadow-md">
+          <img
+            src="assets/rustikana-detail-2.jpg"
+            [alt]="'HOME.GALLERY_ALT.SWEETHEART_TABLE' | translate"
+            class="w-full h-40 sm:h-48 md:h-52 object-cover"
+          />
+        </div>
+
+        <div class="rounded-2xl overflow-hidden shadow-md">
+          <img
+            src="assets/rustikana-detail-4.jpg"
+            [alt]="'HOME.GALLERY_ALT.LIGHTING_DETAILS' | translate"
+            class="w-full h-40 sm:h-48 md:h-52 object-cover"
+          />
+        
+      </div>
+    </div>
+
+    </div>
+  </div>
+</section>
