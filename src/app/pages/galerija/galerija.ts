@@ -15,11 +15,16 @@ export class Galerija {
   activeTab: 'sala' | 'hotel' = 'sala';
 
   salaImages: GalleryImage[] = [
-    { src: 'assets/galerija1.jpg', alt: 'Sala Rustikana – pogled 1' },
     { src: 'assets/galerija2.jpg', alt: 'Sala Rustikana – pogled 2' },
-    { src: 'assets/galerija3.jpg', alt: 'Detalji dekoracije' },
-    { src: 'assets/galerija4.jpg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija4.jpeg', alt: 'Postavka stolova' },
     { src: 'assets/galerija5.jpg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija6.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija7.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija8.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija9.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija10.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/galerija1.jpg', alt: 'Sala Rustikana – pogled 1' },
+
     { src: 'assets/rustikana-detail-1.jpg', alt: 'Postavka stolova' },
     { src: 'assets/rustikana-detail-2.jpg', alt: 'Postavka stolova' },
     { src: 'assets/rustikana-detail-3.jpg', alt: 'Postavka stolova' },

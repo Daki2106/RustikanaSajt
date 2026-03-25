@@ -1,7 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { RouterLinkActive, RouterModule, RouterOutlet } from '@angular/router';
-import {  NgIf } from '@angular/common';
-
+import { NgIf } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -19,6 +18,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 })
 export class App {
   langOpen = false;
+  menuOpen = false;
   protected readonly title = signal('svadbeni-salon-rustikana');
   currentYear: number = new Date().getFullYear();
 
@@ -31,5 +31,19 @@ export class App {
   changeLang(lang: string) {
     this.translate.use(lang);
     localStorage.setItem('lang', lang);
+    this.langOpen = false;
+    this.menuOpen = false;
+  }
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+    if (this.menuOpen) {
+      this.langOpen = false;
+    }
+  }
+
+  closeMenu() {
+    this.menuOpen = false;
+    this.langOpen = false;
   }
 }
