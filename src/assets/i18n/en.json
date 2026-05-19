@@ -35,6 +35,11 @@
       "SWEETHEART_TABLE": "Sweetheart table",
       "VENUE_AMBIENCE": "Venue ambience",
       "LIGHTING_DETAILS": "Lighting details"
+    },
+    "VIRTUAL_TOUR": {
+      "KICKER": "Virtual tour",
+      "TITLE": "Walk through the wedding venue",
+      "DESC": "Explore the interior and layout of the venue through an interactive 360° virtual tour."
     }
   },
 
@@ -126,6 +131,11 @@
       "TITLE": "Reservations",
       "BODY": "For pricing details and available dates, please contact us via the Contact page."
     }
+  },
+  "VIRTUAL_TOUR": {
+    "KICKER": "Virtual tour",
+    "TITLE": "Walk through the motel",
+    "DESC": "Explore the interior and accommodation layout through an interactive 360° virtual tour."
   }
 },
 "CONTACT": {

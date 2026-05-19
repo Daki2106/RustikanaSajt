@@ -35,6 +35,11 @@
       "SWEETHEART_TABLE": "Brauttisch",
       "VENUE_AMBIENCE": "Saal-Atmosphäre",
       "LIGHTING_DETAILS": "Lichtdetails"
+    },
+    "VIRTUAL_TOUR": {
+      "KICKER": "Virtueller Rundgang",
+      "TITLE": "Gehen Sie durch den Hochzeitssaal",
+      "DESC": "Entdecken Sie den Innenraum und die Raumaufteilung durch einen interaktiven 360°-Rundgang."
     }
   },
 
@@ -126,6 +131,11 @@
       "TITLE": "Reservierungen",
       "BODY": "Für Details zu Preisen und freien Terminen kontaktieren Sie uns bitte über die Kontakt-Seite."
     }
+  },
+  "VIRTUAL_TOUR": {
+    "KICKER": "Virtueller Rundgang",
+    "TITLE": "Gehen Sie durch das Motel",
+    "DESC": "Entdecken Sie den Innenraum und die Aufteilung der Unterkunft durch einen interaktiven 360°-Rundgang."
   }
 },
 "CONTACT": {

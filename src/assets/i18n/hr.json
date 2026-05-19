@@ -39,6 +39,11 @@
       "SWEETHEART_TABLE": "Sto mladenca",
       "VENUE_AMBIENCE": "Ambijent sale",
       "LIGHTING_DETAILS": "Detalji rasvjete"
+    },
+    "VIRTUAL_TOUR": {
+      "KICKER": "Virtualna šetnja",
+      "TITLE": "Prošećite kroz svadbenu dvoranu",
+      "DESC": "Pogledajte interijer i raspored prostora kroz interaktivnu virtualnu šetnju od 360°."
     }
   },
 
@@ -130,6 +135,11 @@
       "TITLE": "Rezervacije",
       "BODY": "Za detalje oko cijena i slobodnih termina, kontaktirajte nas putem stranice Kontakt."
     }
+  },
+  "VIRTUAL_TOUR": {
+    "KICKER": "Virtualna šetnja",
+    "TITLE": "Prošećite kroz motel",
+    "DESC": "Pogledajte interijer i raspored smještaja kroz interaktivnu virtualnu šetnju od 360°."
   }
 },
 "CONTACT": {
