@@ -127,6 +127,10 @@
       "TITLE": "Amenities",
       "BODY": "Comfortable stay, parking, close to the hall"
     },
+    "BIKERFRIENDLY": {
+      "TITLE": "BIKER FRIENDLY",
+      "BODY": "Perfect stay for two-wheeled travelers."
+    },
     "RESERVATIONS": {
       "TITLE": "Reservations",
       "BODY": "For pricing details and available dates, please contact us via the Contact page."

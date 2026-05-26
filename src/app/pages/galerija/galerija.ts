@@ -15,19 +15,27 @@ export class Galerija {
   activeTab: 'sala' | 'hotel' = 'sala';
 
   salaImages: GalleryImage[] = [
-    { src: 'assets/galerija2.jpg', alt: 'Sala Rustikana' },
-    { src: 'assets/galerija4.jpeg', alt: 'Postavka stolova' },
-    { src: 'assets/galerija5.jpg', alt: 'Rustikana izvana' },
-    { src: 'assets/galerija6.jpeg', alt: 'Sala Rustikana' },
-    { src: 'assets/galerija7.jpeg', alt: 'Sala Rustikana' },
-    { src: 'assets/galerija8.jpeg', alt: 'Sala Rustikana' },
-    { src: 'assets/galerija9.jpeg', alt: 'Stol mladenci' },
-    { src: 'assets/galerija10.jpeg', alt: 'Sala Rustikana' },
-    { src: 'assets/galerija1.jpg', alt: 'Sala Rustikana' },
-
-    { src: 'assets/rustikana-detail-1.jpg', alt: 'Stol mladenci-2' },
-    { src: 'assets/rustikana-detail-2.jpg', alt: 'Prvi ples' },
-    { src: 'assets/rustikana-detail-3.jpg', alt: 'Postavka stolova' },
+    { src: 'assets/sala4.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/sala3.jpeg', alt: 'Sala Rustikana' },
+    { src: 'assets/sala5.jpeg', alt: 'Prvi ples' },
+    { src: 'assets/sala16.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/sala15.jpg', alt: 'Sala Rustikana' },
+    { src: 'assets/sala18.jpeg', alt: 'Prvi ples' },
+    { src: 'assets/sala19.jpeg', alt: 'Postavka stolova' },
+    { src: 'assets/sala17.jpeg', alt: 'Sala Rustikana' },
+    { src: 'assets/sala14.jpg', alt: 'Prvi ples' },
+    { src: 'assets/sala13.jpg', alt: 'Postavka stolova' },
+    { src: 'assets/sala12.jpg', alt: 'Sala Rustikana' },
+    { src: 'assets/sala7.jpg', alt: 'Prvi ples' },
+    { src: 'assets/sala20.jpg', alt: 'Postavka stolova' },
+    { src: 'assets/sala11.jpg', alt: 'Sala Rustikana' },
+    { src: 'assets/sala10.jpg', alt: 'Prvi ples' },
+    { src: 'assets/sala9.jpg', alt: 'Postavka stolova' },
+    { src: 'assets/sala8.jpg', alt: 'Sala Rustikana' },
+    { src: 'assets/sala6.jpg', alt: 'Prvi ples' },
+    { src: 'assets/sala2.png', alt: 'Postavka stolova' },
+    { src: 'assets/sala1.png', alt: 'Sala Rustikana' },
+    
   ];
 
   hotelImages: GalleryImage[] = [

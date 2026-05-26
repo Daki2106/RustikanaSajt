@@ -129,7 +129,11 @@
     },
     "AMENITIES": {
       "TITLE": "Pogodnosti",
-      "BODY": "Udoban smještaj, parking, blizina sale"
+      "BODY": "Udoban smještaj, parking, garaža, blizina sale"
+    },
+    "BIKERFRIENDLY": {
+      "TITLE": "BIKER FRIENDLY",
+      "BODY": "Savršen boravak za putnike na dva kotača."
     },
     "RESERVATIONS": {
       "TITLE": "Rezervacije",
